@@ -1,7 +1,7 @@
 echo "# soymilk-website" > README.md
 git init
 git add .
-git commit -m "Add all website source code"
+git commit -m "Move source code to root directory for Vercel deployment"
 git branch -M main
 git remote add origin https://github.com/sychenlucas-cloud/soymilk-website.git
 git push origin main
